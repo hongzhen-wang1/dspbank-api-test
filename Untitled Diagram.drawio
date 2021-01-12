@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T13:56:34.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="GfqsW21T_OBipg--iCox" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T14:01:52.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="SZHMsjjtt0gfwVUz0iWn" version="14.1.9" type="github">
   <diagram id="_KB4uaqU4iEbdOXhJTjG" name="Page-1">
-    <mxGraphModel dx="1127" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1127" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="yr5TdyFtEIAfdWuPYArd-44" value="&lt;font style=&quot;font-size: 10px&quot;&gt;-ベースイメージを指定&lt;br&gt;&lt;br&gt;-git sourceからjarファイルを生成(mvn clean package)&lt;br&gt;&lt;br&gt;-setting.xmlをベースーメージへcopy&lt;br&gt;&lt;br&gt;-jarファイルをNexus3へdeploy(mvn deploy)&lt;br&gt;&lt;br&gt;-イメージをICCRへpush&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
           <mxGeometry x="390" y="459" width="140" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="yr5TdyFtEIAfdWuPYArd-47" value="&lt;font style=&quot;font-size: 14px&quot;&gt;共通モジュール(java maven)のCICD Pipeline構成&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
